@@ -14,3 +14,6 @@ elif jatekmod == 2:
 
 nev1_kartyak = [random.randint(2, 11) for _ in range(2)]
 nev2_kartyak = [random.randint(2, 11) for _ in range(2)]
+
+print(f"{nev1} kártyái: {nev1_kartyak} Összesen {sum(nev1_kartyak)}")
+print(f"{nev2} kártyái: {nev2_kartyak} Összesen {sum(nev2_kartyak)}")
